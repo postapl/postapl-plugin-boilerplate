@@ -1,0 +1,39 @@
+{
+  "name": "postapl-plugin-boilerplate",
+  "description": "PostAPL plugin boilerplate",
+  "repository": "postapl/postapl-plugin-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": "cli.js",
+  "keywords": [
+    "postapl",
+    "boilerplate"
+  ],
+  "scripts": {
+    "test": "eslint"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "gogen": "^2.2.1"
+  },
+  "devDependencies": {
+    "clean-publish": "^3.4.2",
+    "eslint": "^8.0.1"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended"
+    ],
+    "rules": {
+      "jest/expect-expect": "off"
+    }
+  }
+}
